@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+:root {
+    --brg-footer: #222222;
+    --color-share: #4BC800;
+
+}
+
+.bordo {
+    border: 1px solid black;
+
+}
+
+.container-nav {
+    max-width: 1400px;
+    margin: 0 auto;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: flex-end;
+   height: 3vw;
+}
+.container-main {
+    max-width: 1200px;
+    margin: 0 auto;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   height: 14vw;
+}
+
+.container-footer {
+    max-width: 1400px;
+    margin: 0 auto;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   height: 3vw;
+}
