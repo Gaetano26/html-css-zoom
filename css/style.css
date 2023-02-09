@@ -9,21 +9,32 @@
 :root {
     --brg-footer: #222222;
     --color-share: #4BC800;
+    --brg-link-nav: #4A4A4A;
+
 
 }
 
 .bordo {
-    border: 1px solid black;
+    border: 1px solid white;
 
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    background-color: black;
+    height: 100vh;
+    min-height: 100vh;
+}
+
 .container-nav {
-    max-width: 1400px;
-    margin: 0 auto;
    display: flex;
    flex-flow: row nowrap;
    justify-content: flex-end;
-   height: 3vw;
+   overflow: hidden;
+   height: 53px;
+   padding-bottom: 10px;
+   
 }
 .container-main {
     max-width: 1200px;
@@ -31,14 +42,36 @@
    display: flex;
    flex-flow: row nowrap;
    justify-content: space-between;
-   height: 14vw;
+   overflow: hidden;
+   height: 210px;
 }
 
 .container-footer {
-    max-width: 1400px;
-    margin: 0 auto;
    display: flex;
    flex-flow: row wrap;
    justify-content: space-between;
-   height: 3vw;
+   overflow: hidden;
+   height: 53px;
+
+   
+}
+
+.link1-nav {
+    
+    border-radius: 8px;
+    margin: 0.5rem;
+    background-color: var(--brg-link-nav);
+   
+    
+    
+   
+}
+
+.text-nav {
+    font-size: 13px;
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    
+    
 }
